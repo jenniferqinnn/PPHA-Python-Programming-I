@@ -10,5 +10,8 @@ Created on Thu Mar 23 11:33:13 2023
 
 x= 10
 t = 28
+
+y = 102
+
 print(x)
 print(t)
