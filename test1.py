@@ -8,10 +8,4 @@ Created on Thu Mar 23 11:33:13 2023
 
 #this is a test
 
-x= 10
-t = 28
-
-y = 102
-
-print(x)
-print(t)
+start_list = [3, 5, 7, 9, 11, 13]
