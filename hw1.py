@@ -24,7 +24,7 @@ Created on Mon Mar 27 14:45:39 2023
 # "The value at position __ is __" for every element in the loop, where the first blank is the
 # index location and the second blank the object at that index location.
 
-list1 = [1,2,3,4]
+list1 = [1,'jessy','linda',4]
 for i in range(len(list1)):
     print('The value at position', i, 'is', list1[i])
 
@@ -34,16 +34,16 @@ for i in range(len(list1)):
 # rejecting the word "Apple" and the phrase "This isn't a palindrome". Print the results of these
 # four tests.
 
-test = ['radar','A man, a plan, a canal, Panama!','Apple']
+test = ['radar','A man, a plan, a canal, Panama!','Apple','This isn\'t a palindrome']
 
 #isalnum citation: https://www.w3schools.com/python/ref_string_isalnum.asp
 
 for phrase in test:
     phrase_new = ''.join(i for i in phrase.lower() if i.isalnum())
     if phrase_new == phrase_new[::-1]:
-        print('{} is a palindrome'.format(phrase))
+        print("'{}' is a palindrome.".format(phrase))
     else:
-        print("{} isn't a palindrome".format(phrase))
+        print("'{}' isn't a palindrome, so we reject it.".format(phrase))
 
 
 # Question 3: The code below pauses to wait for user input, before assigning the user input to the
@@ -66,7 +66,7 @@ while True:
 # list that contains each string in all lower-case letters, but only if the string begins with the
 # letter "a" or "b".
 
-start_list4 = ['Comprehensive','ABC','abc','bob','Lucy','Bike']
+start_list4 = ['Comprehensive','ABC','apple','bob','Lucy','Bike']
 new_list4 = [i.lower() for i in start_list4 if i[0] == 'a' or i[0] == 'b']
 print(new_list4)
 
