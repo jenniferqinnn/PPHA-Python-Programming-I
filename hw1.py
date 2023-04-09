@@ -11,7 +11,7 @@ Created on Mon Mar 27 14:45:39 2023
 # Homework 1
 
 # Jennifer Qin
-# jenniferqinnn7
+# jenniferqinnn
 
 # Due date: Sunday April 2nd before midnight
 # Write your answers in the space between the questions, and commit/push only this file to your repo.
